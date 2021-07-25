@@ -1,17 +1,90 @@
-.container {
-	padding: 250px;
+.register {
+    transition: all ease-in-out 0.5s;
+    background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+    width: 100vw;
+    height: 100vh;
 }
 
-.center-text {
-	text-align: center;
-	font-weight: bold;
-	text-transform: uppercase;
+.register .form-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(25px);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
 }
 
-.card-width {
-	width: 25rem;
+.register .form-card .card-title {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px 10px 0 0;
 }
 
-.button {
-	margin-top: 1rem;
+.register .form-card .card-body form a {
+    text-decoration: none;
 }
+
+.register .form-card .card-body form .info-text-1 {
+    color: lightgrey;
+    font-size: 0.85em;
+}
+
+.register .form-card .card-body form .info-text-2 {
+    font-size: 1.1em;
+    color: lightgrey;
+    font-weight: 400;
+    border-bottom: 1px solid lightgrey;
+}
+
+.register .form-card .card-body form .form-label {
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.register .form-card .card-body form input {
+    border: none;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.15);
+    height: 48px;
+    color: white;
+    font-size: 1.05em;
+    padding-left: 15px;
+    border-radius: 6px;
+    font-weight: 400;
+}
+
+.register .form-card .card-body form input:focus {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.register .form-card .card-body form input::placeholder {
+    color: lightgrey;
+}
+
+.register .form-card .card-body form .form-label svg {
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.register .form-card .card-body form .btn-submit {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.15);
+    border: none;
+    outline: none;
+    height: 48px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.register .form-card .card-body form .btn-submit svg {
+    font-weight: 600;
+    margin-bottom: 4px;
+    font-size: 1.2em;
+}
+
