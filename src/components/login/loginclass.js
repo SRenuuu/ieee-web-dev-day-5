@@ -4,8 +4,8 @@ import { Card, Container, Form, Button, Row, Col } from "react-bootstrap";
 import "./login.css";
 
 export default class LoginClass extends Component {
-	constructor() {
-		super();
+	constructor(props) {
+		super(props);
 		this.state = {
 			email: "",
 			password: "",
