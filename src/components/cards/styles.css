@@ -1,0 +1,23 @@
+.friends-list .card {
+    /*background: #ECE9E6;  !* fallback for old browsers *!*/
+    /*background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);  !* Chrome 10-25, Safari 5.1-6 *!*/
+    /*background: linear-gradient(to top, #FFFFFF, #ECE9E6); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
+    background: lightgrey;
+    border-radius: 10px;
+    border: 2px solid darkgrey;
+    align-content: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.friends-list .card img {
+    width: 91%;
+    align-self: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.friends-list .card .card-title {
+    font-weight: 700;
+}
